@@ -1,0 +1,337 @@
+.row{
+  margin-left: 0 !important;
+}
+@font-face {
+  font-family: "IRANSans";
+  src: url("./woff/IRANSansWeb.woff");
+  format: "woff"
+}
+
+* {
+  font-family: IRANSans, serif;
+}
+
+.sidetab{
+  font-size: 11px;
+}
+
+.amin{
+  color: #c6be9f !important;
+  font-size: 14px !important;
+}
+
+.amir{
+  color: #fbf5c9 !important;
+}
+
+.color-aw{
+  color: #fbf5c9 !important;
+}
+.is-invalid:invalid , .ehsan:invalid{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='gray' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='gray' stroke='none'/%3e%3c/svg%3e") !important;
+}
+
+.is-invalid:invalid:focus , .ehsan:invalid:focus{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='blue' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='blue' stroke='none'/%3e%3c/svg%3e") !important;
+  box-shadow: 0 0 0 0.2rem rgba(20,180,165,.15) !important;
+}
+
+p{
+  font-size: 13px !important;
+}
+
+.body2 {
+  width: 93%;
+  padding: 4%;
+}
+
+.form-control{
+  font-size: 10px !important;
+}
+
+.form-control:invalid{
+  border-color: gray !important;
+}
+
+select:invalid{
+  border-color: gray !important;
+}
+
+.jaj > div >div{
+  background-color: transparent !important;
+  border: none;
+}
+
+.body-1 {
+  background-color: white;
+  color: black;
+}
+
+.c-shadow {
+  box-shadow: 0 0 100px rgba(0, 0, 0, .3) !important;
+}
+
+.ali {
+  margin: 5%
+}
+
+.hasan {
+  background-color: #a25835;
+  color: white;
+}
+
+.ali:hover {
+  text-decoration: none ;
+  cursor: pointer;
+}
+
+.ali.active p {
+  color: white !important;
+  border: none;
+}
+
+
+.ali.active button {
+  background-color: #c69e3b;
+  color: white ;
+  border: none ;
+  cursor: pointer ;
+}
+
+.ali.active:hover {
+  opacity: 1 !important;
+}
+
+.ali.tab-btn-disable button{
+  background-color: #a25835;
+  color: white !important;
+}
+
+.ali.tab-btn-disable *{
+  cursor: default !important;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.bg-custom {
+  border-width: 0 !important;
+  -webkit-box-shadow: 0 0;
+  box-shadow: 0 0;
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00))) !important;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%) !important;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%) !important;
+}
+
+.top-border {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 80px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.bottom-border {
+  position: absolute;
+  width: 100%;
+  bottom: 1px;
+  height: 8vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.form-input {
+  padding-right: 0;
+}
+
+.btn-custom {
+  background-color: #51A3A3;
+  color: white;
+  border: 0;
+}
+
+.btn-custom:hover {
+  background-color: #51A3A3;
+  color: white;
+  opacity: .8 !important;
+}
+.yahya{
+  display: none;
+}
+
+.form-label{
+  font-size: 13px !important;
+}
+.khat{
+  display: none;
+}
+
+.bg-8{
+  background-image: url("./../Images/background- kanino.png") !important;
+  background-size: cover;
+
+}
+
+.plus-icon {
+  border: 0;
+  cursor: pointer;
+}
+
+.plus-icon:hover {
+  opacity: .8 !important;
+}
+@media (max-width: 1199px) and (min-width: 1000px) {
+  .position-fixing {
+    position: sticky !important;
+    top: 0 !important;
+  }
+  .hamid{
+    margin-left: 2% !important;
+  }
+  .akbar{
+    font-size: 14px !important;
+  }
+  .khat{
+   display: none;
+  }
+}
+
+@media (max-width: 999px) and (min-width: 767px) {
+
+  .row-1 {
+    flex-direction: row !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+    justify-content: center;
+    width: 100%;
+  }
+  .yahya{
+    display: block;
+  }
+  .majid{
+    display: none;
+  }
+  .amin{
+    display: none;
+  }
+  .column-1 {
+    flex-direction: column-reverse !important;
+  }
+  .hamid{
+    text-align: center;
+  }
+  .hossein {
+    margin-top: 12.5% !important;
+  }
+
+  .form-input {
+    padding-right: 15px !important;
+  }
+  .akbar{
+    font-size: 13px;
+  }
+  .amir{
+    display: none !important;
+  }
+  .khat{
+    display: flex !important;
+    border-top: 2px dashed whitesmoke;
+    width: 100%;
+    margin: 8.5% 0;
+  }
+  .ali{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .nav{
+    padding: 0 10%;
+  }
+  .omid{
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 766px) {
+  .yyy{
+    font-size: 8px !important;
+  }
+  .ppp{
+    width: 100% !important;
+  }
+  .row-1 {
+    flex-direction: row !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .column-1 {
+    flex-direction: column-reverse !important;
+    /* align-items: center!important; */
+  }
+
+  .ali {
+    width: 15%;
+  }
+
+  .form-input {
+    padding-right: 15px !important;
+  }
+  .yahya{
+    display: block;
+  }
+  .majid{
+    display: none;
+  }
+  .amin{
+    display: none;
+  }
+  .hamid{
+    text-align: center;
+  }
+  .akbar{
+    font-size: 13px;
+  }
+  .amir{
+    display: none !important;
+  }
+  .khat{
+    display: flex !important;
+    border-top: 2px dashed whitesmoke;
+    width: 100%;
+    margin: 11.25% 0;
+  }
+  .ali{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .nav{
+    padding: 0 5%;
+  }
+  .omid{
+    width: 95% !important;
+  }
+  .body-1{
+    padding-right: 10px !important;
+    padding-left:  10px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .position-fixing {
+    position: sticky !important;
+    top: 0 !important;
+  }
+  .hamid{
+    margin-left: 6%;
+  }
+  .khat{
+    display: none;
+  }
+}
